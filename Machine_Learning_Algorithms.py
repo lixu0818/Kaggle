@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 #load data
 #please change path when rerun the data
-path = 'C:/Users/yl949/.spyder2/covtype.data'
+path = 'C:/Users/lx83/.spyder2/covertype.data'
 # reading in all data into a NumPy array
 all_data = np.genfromtxt(open(path,"r"),
     delimiter=",",
